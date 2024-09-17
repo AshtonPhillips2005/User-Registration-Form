@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <!-- Form content will go here -->
+     <form action="#" method="POST">
+        <!-- Input fields will go here -->
+        <h1>User Registration Form</h1>
+
+         <a href="login.html">click here if you already register</a><br><br>
+
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" name="name" required><br><br>
+
+         <label for="email">Email Address:</label>
+         <input type="email" id="email" name="email" required><br><br>
+
+         <label for="password">Password:</label>
+         <input type="password" id="password" name="password" required><br><br>
+
+         <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" required> Male</label><br>
+            <label><input type="radio" name="gender" value="female"> Female</label><br>
+            <label><input type="radio" name="gender" value="other"> Other</label><br>
+         </fieldset><br>
+
+         <label for="dob">Date of Birth:</label>
+         <input type="date" id="dob" name="dob"><br><br>
+
+         <label><input type="checkbox" name="terms" required> I agree to the Terms and Conditions.</label><br><br>
+
+         <label><input type="checkbox" name="terms" required> If you check this box it means you are 16 years old or older.</label><br><br>
+
+         <button type="submit">Register</button>
+     </form>
+</body>
+</html>
